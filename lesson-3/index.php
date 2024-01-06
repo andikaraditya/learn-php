@@ -1,10 +1,13 @@
 <?php
 
-    $name = "Yoshi";
-    $age = 30;
+$stringOne = "my email is";
+$stringTwo = "admin@mail.com";
 
-    define("NAME","Mario");
+$name = 'mario';
 
+//echo $stringOne . $stringTwo;
+
+echo "my name is $name"
 ?>
 
 <!DOCTYPE html>
@@ -17,10 +20,12 @@
 </head>
 
 <body>
-    <h1><?php echo "Hello Dom" ?></h1>
-    <h2><?php echo $name ?></h2>
-    <h2><?php echo $age?></h2>
-    <h2><?php echo NAME?></h2>
+    <h1>
+        <?php echo "Hello Dom" ?>
+    </h1>
+    <h2>
+        <?php ?>
+    </h2>
 </body>
 
 </html>
