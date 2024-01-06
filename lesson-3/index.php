@@ -1,15 +1,15 @@
 <?php
+$ninjas = ["john", "jake", "jessica"];
 
-$stringOne = "my email is";
-$stringTwo = "admin@mail.com";
+for($i = 0; $i < count($ninjas); $i++) {
+    echo $ninjas[$i]. "<br />";
+}
 
-$name = 'mario';
+foreach ($ninjas as $ninja) {
+    echo $ninja. "<br />";
+}
 
-//echo $stringOne . $stringTwo;
-
-echo "my name is $name"
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,12 +20,6 @@ echo "my name is $name"
 </head>
 
 <body>
-    <h1>
-        <?php echo "Hello Dom" ?>
-    </h1>
-    <h2>
-        <?php ?>
-    </h2>
 </body>
 
 </html>
